@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--
+        CST255 Internet and Website Development
+        Website Project
+        Projects
+        Author: Austin McDonough
+        Date: 07/11/26
+
+        filename: projects.html
+        -->
+
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="projectStyle.css">
+        <title>Projects</title>   
+    </head>
+
+    <body>
+        <nav>
+            <a class="aNav" href="index.html">Main</a>
+            <a class="aNav" href="projects.html">Projects</a>
+            <a class="aNav" href="hobbies.html">Hobbies</a>
+        </nav>
+
+        <header>
+            <h1>Projects</h1>
+        </header>
+
+        <article>
+            <p>
+                Outside of work I also like to tinker and build applications for personal use,
+                and occasionally build tools to automate or simplify tasks at work.  Sometimes
+                these are useful tools that I cannot find elsewhere and sometimes they are 
+                just to challenge myself to learn new concepts.  
+            </p>
+
+            <hr>
+
+            <h2>Smart Home Thermostat</h2>
+            <p>
+                I built this one several years ago and it is still in use today.  This was
+                somewhat just for my own entertainment, but also to do a long-term experiment to 
+                develop a code base for general building automation.  It has proven to perform
+                quite well.  
+            </p>
+            <p>
+                This HVAC controller accounts for unbalanced duct work and integrates a previously 
+                separate system for a heated floor in an addition.  Based on multiple temperature
+                sensors throughout the house, it circulates air between cycles if some rooms are 
+                noticeably warmer or cooler than others.  It also targets the average of these 
+                temperatures when calling for heat or A/C.  These two features combined ensure a more
+                consistent temperature throughout the house and more efficient use of the mechanical system.
+            </p>
+            <p>
+                This was an entertaining project combining physical controls and a web UI.  It has
+                gone through several iterations and I hope to further improve it over time, with the 
+                goal of making it more modular and scalable.
+            </p>
+
+            <hr>
+
+            <h2>PLC Code Generation</h2>
+            <p>
+                This is a more recent project that is functional, but still is very much in development.
+                The program structure for most industrial control applications should follow a relatively
+                consistent pattern.  Once this structure is understood, setting up new programs is fairly
+                easy but can be time consuming.
+            </p>
+            <p>
+                Over the yeasr in this field I have taken on many new tasks such as project management, 
+                estimating project budgets, and other adminstrative tasks.  As I lose more and more time 
+                to these tasks I am left with less time to write code and this project is an effort to 
+                reduce the amount of time needed to develop new programs. 
+            </p>
+            <p>
+                The current iteration of this is based on standardized data structures and functions 
+                that I have built up over the years.  It also is based on simple text files as the input 
+                data, which requires very strict use of device nomenclature.  The next iteration will 
+                support the use of a formatted spreadsheet with drop-down lists that will allow for more 
+                flexibility in naming conventions.  These should still follow a consistent standard, but 
+                will support a wider range of applications.  The final goal would be to allow users to 
+                import their own structures and functions.
+            </p>
+        </article>
+
+    </body>
+
+</html>

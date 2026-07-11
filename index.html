@@ -4,43 +4,51 @@
     <head>
         <!--
         CST255 Internet and Website Development
-        Website Project
+        Website Project: Index
         Career Interests and Goals
         Author: Austin McDonough
-        Date: 07/04/26
+        Date: 07/11/26
 
-        filename: websiteProject.html
+        filename: index.html
         -->
 
         <meta charset="utf-8"/>
-        <style>
-            body {font-family: Arial, Helvetica, sans-serif;}
-        </style>
+        <link rel="stylesheet" href="projectStyle.css">
         <title>Career Interests Website</title>   
     </head>
 
     <body>
+        <nav>
+            <a class="aNav" href="index.html">Main</a>
+            <a class="aNav" href="projects.html">Projects</a>
+            <a class="aNav" href="hobbies.html">Hobbies</a>
+        </nav>
+        
         <header>
-            <h1 align="center">Career Interests and Goals</h1>
+            <h1>Career Interests and Goals</h1>
         </header>
 
-        <article>
+        <article style="max-width: 1200px">
             <h2>Education and Professional Experience</h2>
             <p>
                 I have 15 years of experience as a Controls Engineer, a role I first started in
                 after getting an AAS in Electrical Power & Controls from Terra State CC in 2011.
                 This degree covered subjects such as: 
-                <ul>
-                    <li>Electrical Systems</li> 
-                    <li>Electronics</li>
-                    <li>Process Control</li>
-                    <li>PLC Programming</li> 
-                    <li>Mechanical Systems</li>
-                    <li>Introductory courses in Computer Science</li>
-                </ul>
+                <div class="hbox2">
+                    <ul>
+                        <li>Electrical Systems</li> 
+                        <li>Electronics</li>
+                        <li>Process Control</li>
+                        <li>PLC Programming</li> 
+                        <li>Mechanical Systems</li>
+                        <li>Introductory courses in Computer Science</li>
+                    </ul>
+                    <img src="TerraLogo.jpg" alt="Terra State Community College Logo">
+                </div>
                 In the years since graduating I have gone through a great deal of on the job training,
                 additional academic courses, and self-led MOOC's; where I learned robotics, new
                 programming languages, networking principles, and database applications and more.
+
             </p>
             <p>
                 Throughout my career, the largest challenges have been tasks that fall more into
@@ -73,6 +81,10 @@
                 having more formal credentials and hope to work on more advanced systems with a deeper focus  
                 on software development.
             </p>
+            <div class="hbox2" style="margin-top: 50px; margin-left: 100px;">
+                <img src="TiffinLogo.jpg" alt="Tiffin University Logo" height="100px">
+                <img src="ProgrammingIDE.jpg" alt="Programming IDE screenshot" height="100px">
+            </div>
         </article>
 
     </body>
