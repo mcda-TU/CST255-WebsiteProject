@@ -1,50 +1,156 @@
-body {
-    background-color:whitesmoke ;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 1000px;
-    margin: 0 auto;
-    /*box-sizing: border-box;*/
+/*
+CST255 Internet and Website Development
+Website Project
+Hobbies
+Author: Austin McDonough
+Date: 07/18/26
+filename: projectStyle.css
+*/
+
+
+/*  CSS Reset Statements  */
+article, aside, figcaption, figure, 
+footer, header, main, nav, section {
+    display: block;
 }
 
 
+address, article, aside, blockquote, body,
+cite, div, dl, dt, dd, em, figcaption, figure,
+footer, h1, h2, h3, h4, h5, h6, header, html,
+img, li, main, nav, ol, p, section, span, ul {
+    background: transparent;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+/*  Style Sheet Statements  */
+body {
+    background-color: #FDFEFE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #424949;
+    font-size: 16pt;
+    width: 60%;
+    min-width: 600px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+
+article {
+    line-height: 1.35;
+}
+
 h1 {
+    color: #1A5276;
+    font-size: 20pt;
+    height: 60px;
+    line-height: 2;
     text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 5px;
+    border: 5px;
 }
 
 
 h2 {
-    text-align: center;
+    color: #2471A3;
+    font-size: 18pt;
+    line-height: 2;
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+    border: 5px;
+}
+
+
+p {
+    margin: 10px;
+    padding: 5px;
+    border: 5px;
+}
+
+
+ul {
+    padding-left: 50px;
+}
+
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
 }
 
 
 nav {
-    background-color:lightgray ;
+    background-color: #F2F3F4;
     width: 100vw;
     position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
-    margin-right: -50vw;   
+    margin-right: -50vw;
+    margin-bottom: 20px;
 }
 
 
-.aNav {
-    background-color: lightgray ;
-    color:darkslategrey ;
+nav a {
+    text-decoration: none;
+    background-color: inherit;
+    color: #1F618D;
     font-size: 16pt;
     margin-left: 1%;
 }
+
 
 .hbox2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     vertical-align: middle;
+    margin: 20px;
+    padding: 5px;
+    border: 5px;
 }
+
 
 .hbox3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1px;
     vertical-align: middle;
+    margin: 20px;
+    padding: 5px;
+    border: 5px;
+}
+
+
+img {
+    border-radius: 5px;
+}
+
+
+footer {
+    clear: left;
+    height: 25px;
+    background-color: rgba(252,252,252,0.05);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 75px;
+}
+
+
+footer a {
+    float: left;
+    width: 15%;
 }
