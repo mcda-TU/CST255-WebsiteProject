@@ -14,4 +14,5 @@ Primarily updated the CSS file. Changes include:
 - Set nav links to inherit background color to simplify color changes.
 - Added padding & margins for paragraphs and headers to improve negative space between elements.
 - Added radius to image files to improve their appearance.
+- Set x-overflow to hidden to remove the horizontal scroll bar.
 HTML updtes include rearranging some image files on the 'Hobbies' page and correcting a few spelling errors.
