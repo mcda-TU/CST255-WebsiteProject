@@ -16,3 +16,11 @@ Primarily updated the CSS file. Changes include:
 - Added radius to image files to improve their appearance.
 - Set x-overflow to hidden to remove the horizontal scroll bar.
 HTML updtes include rearranging some image files on the 'Hobbies' page and correcting a few spelling errors.
+
+Update on 7/25/26:
+Primarily updated the CSS file. Changes include:
+- Increased line-heights
+- Incorporated flex-display to support short sidebars next to content.
+- Added CSS rules to float images and sidebars
+- Added sentence spacing after periods.
+- Added and improved the use of paddings and margins
