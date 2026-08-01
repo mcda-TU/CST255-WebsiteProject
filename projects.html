@@ -7,36 +7,39 @@
         Website Project
         Projects
         Author: Austin McDonough
-        Date: 07/25/26
+        Date: 08/01/26
 
         filename: projects.html
         -->
 
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="projectStyle.css">
-        <title>Projects</title>   
+        <title>Projects</title>
+        <script src="projectScripts.js" defer></script>
     </head>
 
-    <body>
+    <body id="siteBody" class="lightMode">
         <nav>
             <a href="index.html">Main</a>
             <a href="projects.html">Projects</a>
             <a href="hobbies.html">Hobbies</a>
+            <button id="darkLightPB" class="rightAligned optionPB">Dark Mode</button>
         </nav>
 
+
         <header>
-            <h1>Projects</h1>
+            <h1 class="h1Light">Projects</h1>
             <hr>
         </header>
 
             <article>
-                <p class="sidebarfloatR">
+                <p id="sidenote" class="sidebarfloatR sidebarLight">
                     Outside of work I also like to tinker and build applications for personal use,
                     and occasionally build tools to automate or simplify tasks at work.  Sometimes
                     these are useful tools that I cannot find elsewhere and sometimes they are 
                     just to challenge myself to learn new concepts.  
                 </p>
-                <h2>Smart Home Thermostat</h2>
+                <h2 class="h2Light">Smart Home Thermostat</h2>
                 <p>
                     I built this one several years ago and it is still in use today.  This was
                     somewhat just for my own entertainment, but also to do a long-term experiment to 
@@ -62,7 +65,7 @@
             <hr>
 
             <article>
-                <h2>PLC Code Generation</h2>
+                <h2 class="h2Light">PLC Code Generation</h2>
                 <p>
                     This is a more recent project that is functional, but still is very much in development.
                     The program structure for most industrial control applications should follow a relatively

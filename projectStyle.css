@@ -3,7 +3,7 @@ CST255 Internet and Website Development
 Website Project
 Hobbies
 Author: Austin McDonough
-Date: 07/25/26
+Date: 08/01/26
 filename: projectStyle.css
 */
 
@@ -42,12 +42,25 @@ body {
 }
 
 
+.lightMode {
+    background-color: #FDFEFE;
+    color: #424949;
+}
+
+
+.darkMode {
+    background-color: #424949;
+    color: #FDFEFE;
+}
+
+
 article {
     max-width: 1200px;
 }
 
+
 h1 {
-    color: #1A5276;
+    /*color: #1A5276;*/
     font-size: 20pt;
     height: 60px;
     line-height: 2;
@@ -60,13 +73,28 @@ h1 {
 
 
 h2 {
-    color: #2471A3;
+    /*color: #2471A3;*/
     font-size: 18pt;
     line-height: 2;
     text-align: left;
     margin: 10px;
     padding: 5px;
     border: 5px;
+}
+
+
+.h1Light {
+    color: #1A5276
+}
+
+
+.h2Light {
+    color: #2471A3
+}
+
+
+.hDark {
+    color: #ecf0f1
 }
 
 
@@ -102,12 +130,39 @@ nav {
 }
 
 
+a:visited {
+    color: rgb(0,0,255);
+}
+
+
 nav a {
     text-decoration: none;
     background-color: inherit;
     color: #1F618D;
     font-size: 16pt;
     margin-left: 1%;
+}
+
+
+nav a:visited {
+    color: #1F618D;
+}
+
+
+.rightAligned {
+    position: fixed;
+    right: 0;
+}
+
+
+.optionPB {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #424949;
+    font-size: 16pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -122,14 +177,24 @@ nav a {
 .sidebar {
     width: 350px;
     min-width: 300px;
-    background-color: #dfe6e9;
     border-radius: 15px;
+}
+
+
+.sidebarLight {
+    background-color: #dfe6e9;
+    color: inherit;
+}
+
+
+.sidebarDark {
+    background-color: rgb(0,0,0);
+    color: #dfe6e9;
 }
 
 
 .sidebarfloatL {
     width: 350px;
-    background-color: #dfe6e9;
     border-radius: 15px;
     float: left;
     padding: 10px;
@@ -139,7 +204,6 @@ nav a {
 
 .sidebarfloatR {
     width: 350px;
-    background-color: #dfe6e9;
     border-radius: 15px;
     float: right;
     padding: 10px;
