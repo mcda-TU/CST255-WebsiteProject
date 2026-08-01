@@ -32,5 +32,6 @@ Specific changes include:
 - Added a button to the header to toggle between 'Light Mode / Dark Mode'.  This utilizes
   JavaScript and additional CSS definitions to change the overall color scheme of the site
   with minimal edits to the HTML.
+- 'Light / Dark' mode selection is retained throughout site navigation.
 - Added additional images to display on the 'Hobbies' page.  These images alternate with the
   previously existing images.  JavaScript is used to change these images every 5 seconds.  
